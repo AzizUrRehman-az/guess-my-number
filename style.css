@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 10px;
+}
+h1 {
+  font-size: 70px;
+  text-align: center;
+}
+.btnagain {
+  font-size: 30px;
+  padding: 7px 20px;
+}
+.btnagain:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.between {
+  font-size: 25px;
+  float: right;
+}
+.number {
+  width: 100px;
+  height: 80px;
+  background-color: black;
+  color: white;
+  font-size: 65px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.left {
+  width: 50%;
+  float: left;
+}
+.guess {
+  font-size: 40px;
+  width: 170px;
+  height: 80px;
+  font-size: 65px;
+  display: flex;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  left: 200px;
+  border: 3px solid black;
+}
+.btncheck {
+  font-size: 30px;
+  padding: 7px 20px;
+  position: relative;
+  top: 125px;
+  left: 220px;
+}
+.btncheck:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.right {
+  width: 50%;
+  float: right;
+  font-size: 30px;
+}
+.message {
+  margin: 100px 10px 30px 250px;
+}
+.label-score,
+.label-highscore {
+  margin: 10px 10px 10px 250px;
+}
